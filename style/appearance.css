@@ -1,6 +1,9 @@
 section{
     border-color: yellow;
 }
-#tabl{
+article{
     background-color: yellow
+}
+footer{
+    background-color: yellow;
 }

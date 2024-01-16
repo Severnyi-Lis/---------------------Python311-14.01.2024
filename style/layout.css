@@ -14,15 +14,21 @@ section{
     display: block;
     justify-content: center;
 }
-.set{
-    position: relative;
-    bottom: 3vh;
-}
 #tabl{
     height: auto;
     width: auto;
-    border-width: 10px;
-    border-style:groove;
+}
+#set{
+    position: relative;
+    bottom: 3vh;
+}
+#set_2{
+    position: relative;
+    bottom: 3vh;
+}
+#set_3{
+    position: relative;
+    bottom: 3vh;
 }
 #pol_inf{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -104,4 +110,9 @@ section{
     font-size: large;
     font-family: cursive;
     box-shadow: 10px 7px 10px 3px;
+}
+footer{
+    height: 18vh;
+    width: auto;
+    text-align: center;
 }

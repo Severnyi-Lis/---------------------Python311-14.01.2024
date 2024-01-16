@@ -2,11 +2,19 @@ window.addEventListener(
     'load',
     kuk
 );
-function chs(тык){
+function chpok(тык){
     тык.currentTarget.style.color = 'red';
     pol_inf.style.color='blue';
     pol_inf_2.style.color='red';
-    console.log(ttt,pol_inf,pol_inf_2);
+    soup_1.style.color='red';
+    soup_2.style.color='violet';
+    soup_3.style.color='magenta';
+    soup_4.style.color='green';
+    soup_5.style.color='lime';
+    soup_6.style.color='orange';
+    soup_7.style.color='royalblue';
+    agree.style.color='red';
+    console.log(ttt,pol_inf,pol_inf_2,soup_1,soup_2,soup_3,soup_4,soup_5,soup_6,soup_7,agree);
 }
 function one(тыгыдык){
     тыгыдык.currentTarget.style.backgroundColor='white';
@@ -46,7 +54,7 @@ function seven(апчих){
 function kuk(event_start){
     ttt.addEventListener(
         'click',
-        chs
+        chpok
     )
     nam.addEventListener(
         'click',

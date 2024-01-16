@@ -1,0 +1,107 @@
+article{
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: auto;
+    text-align: center;
+}
+section{
+    height: 70vh;
+    border-width: 20px;
+    border-style:groove;
+    margin: 20px;
+    display: block;
+    justify-content: center;
+}
+.set{
+    position: relative;
+    bottom: 3vh;
+}
+#tabl{
+    height: auto;
+    width: auto;
+    border-width: 10px;
+    border-style:groove;
+}
+#pol_inf{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+}
+#soup_1{
+    height: 15vh;
+    width: auto;
+    border-width: 20px;
+    border-style:groove;
+    display: block;
+    justify-content: center;
+    font-size: large;
+    font-family: cursive;
+    box-shadow: 10px 7px 10px 3px;
+}
+#soup_2{
+    height: 15vh;
+    width: auto;
+    border-width: 20px;
+    border-style:groove;
+    display: block;
+    justify-content: center;
+    font-size: large;
+    font-family: cursive;
+    box-shadow: 10px 7px 10px 3px;
+}
+#soup_3{
+    height: 15vh;
+    width: auto;
+    border-width: 20px;
+    border-style:groove;
+    display: block;
+    justify-content: center;
+    font-size: large;
+    font-family: cursive;
+    box-shadow: 10px 7px 10px 3px;
+}
+#soup_4{
+    height: 15vh;
+    width: auto;
+    border-width: 20px;
+    border-style:groove;
+    display: block;
+    justify-content: center;
+    font-size: large;
+    font-family: cursive;
+    box-shadow: 10px 7px 10px 3px;
+}
+#soup_5{
+    height: 15vh;
+    width: auto;
+    border-width: 20px;
+    border-style:groove;
+    display: block;
+    justify-content: center;
+    font-size: large;
+    font-family: cursive;
+    box-shadow: 10px 7px 10px 3px;
+}
+#soup_6{
+    height: 15vh;
+    width: auto;
+    border-width: 20px;
+    border-style:groove;
+    display: block;
+    justify-content: center;
+    font-size: large;
+    font-family: cursive;
+    box-shadow: 10px 7px 10px 3px;
+}
+#soup_7{
+    height: 15vh;
+    width: auto;
+    border-width: 20px;
+    border-style:groove;
+    display: block;
+    justify-content: center;
+    font-size: large;
+    font-family: cursive;
+    box-shadow: 10px 7px 10px 3px;
+}

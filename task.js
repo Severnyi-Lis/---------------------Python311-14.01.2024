@@ -85,3 +85,40 @@ function kuk(event_start){
         seven
     )
 }
+
+//Здесь начинаются развлечения с BOM и DOM
+let d= navigator;
+console.log(d);
+
+let s= screen;
+console.log(s);
+
+let l=location;
+console.log(l);
+
+/* добавил функцию ,которая делает всплывающее окно, где указано подключен ли браузер к сети или нет ,когда ставишь галочку*/
+function Connection() {
+    if(navigator.onLine) {
+        alert("Application is online.");
+    } else {
+        alert("Application is offline.");
+    }
+}
+
+const withoutScrollBar = screen.availWidth;//Чтобы узнать, сколько пикселей занимает по ширине экран без полосы прокрутки
+console.log(withoutScrollBar);
+
+
+// при нажатии переходит на другой сайт
+ function perehod(){
+   location.href='https://learn.javascript.ru/browser-environment';
+ } 
+ 
+// Указывает полный путь от корня сайта. Есть вопрос - чем отличается let от const
+let path = location.pathname;
+console.log(path);
+
+function cvet(){
+    let fff= pol_inf;
+    fff.style.color='orange';// при нажатии меняет цвет надписи "Анкета" на оранжевый
+}
